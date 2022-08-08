@@ -48,7 +48,6 @@ img {
     margin: 0;
 }
 
-
 /* base styles */
 .container {
     width: 1200px;
@@ -59,6 +58,25 @@ img {
     /* outline: 2px solid red; */
     /* outline-offset: -2px; */
 }    
+
+.logo {    
+    /* margin-left: 200px; */
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: calc(31 / 26);
+    letter-spacing: 0.03em;
+    color: var(--accent-cl);
+} 
+
+.logo--black {
+    color: #000000;
+} 
+
+.logo--white {
+    margin-right: 0;
+    color: #FFFFFF;
+}
 
 .section {
     padding-top: 94px;
@@ -75,6 +93,7 @@ img {
     text-transform: uppercase;
     color: var(--main-txt-cl);
 }
+
 
 .visually-hidden {
   position: absolute;
@@ -109,23 +128,10 @@ img {
     align-items: center;
 }
 
-.logo {    
-    /* margin-left: 200px; */
-    font-family: var(--secondary-font);
-    font-weight: 700;
-    font-size: 26px;
-    line-height: calc(31 / 26);
-    letter-spacing: 0.03em;
-    color: var(--accent-cl);
-} 
-
 .header__logo {
     margin-right: 90px;
 }
 
-.logo--black {
-    color: #000000;
-} 
 
 .nav {
     /* margin-right: 330px; */
@@ -183,7 +189,6 @@ img {
  Header - Page Portfolio
 =================
 */ 
-
 .nav__link--crrt {
     position: relative;
 }
@@ -267,7 +272,6 @@ img {
 Hero section
 =================
 */ 
-
 .hero {     
     display: flex;
     align-items: center;
@@ -352,12 +356,10 @@ Hero section
     background-color: #188CE8; 
 }
     
-
  /* ============
  Features section
 =================
 */  
-
 .features {
     padding-top: 0;
 }
@@ -513,7 +515,7 @@ color: var(--main-txt-cl);
     color: var(--main-txt-cl);
 }
 
-.team-wrap__team-list__name {
+.team-wrap__team-list-name {
     margin-bottom: 10px;
 }
 
@@ -675,10 +677,6 @@ Clients section
     margin-bottom: 20px;
 }
 
-.logo--white {
-    margin-right: 0;
-    color: #FFFFFF;
-}
 
 .footer__address{
     margin-top: 20px;
@@ -886,7 +884,7 @@ Clients section
 =================
 */ 
 
-.container__categories-list {
+.container__cat-list {
   display: flex;
   /* Make a flex container multiline */
   flex-wrap: wrap;
@@ -908,7 +906,7 @@ Clients section
  /* overflow: hidden; */
 }
 
-.categories-list__cats-box {
+.cat-list__cats-box {
     position: relative; 
     overflow: hidden;
 
