@@ -2,7 +2,7 @@
    @extend %section; 
 
    background-color: var(--blond-bg-cl);
-   padding-top: 0;  
+//    padding-top: 0;  
 
     &__section-title {
     margin-bottom: 50px; 
@@ -42,7 +42,7 @@
     }
 } 
 
-.team-list__name {
+.team-list-name {
     /* margin-bottom: 10px; */
     font-weight: 500;
     font-size: 16px;
